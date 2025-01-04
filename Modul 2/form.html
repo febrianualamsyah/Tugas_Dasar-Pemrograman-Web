@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Materi Form</title>
+</head>
+<body>
+	<form>
+		<fieldset>
+			<legend>Data Mahasiwa</legend>
+			<label for="fname">Nama : </label> <input type="text" name="fname" id="fname" placeholder="Isi ya" required><br>
+			<label for="fawal">Nama Awal : </label> <input type="text" name="fawal"><br>
+			<input type="submit" name="Kirim" value="Kirim">
+			<input type="reset" name="reset" value="Reset">
+			<br>
+			<label for="namaMatkul">Nama Mata Kuliah</label>
+				<select id="matkul">
+					<option value="1">DPW</option>
+					<option value="2">PAW</option>
+					<option value="3">Pemrograman Dekstop</option>
+				</select>
+			<label>List nama</label>
+			<input id="namaMatkul" name="namaMatkul" list="matkul">
+			<datalist id="matkul">
+				<option value="Pemrograman Web">
+				<option value="Dekstop">
+				<option value="Jarkom">	
+			</datalist>
+			<label for="benua">Benua :</label>
+			<input type="text" name="fbenua" id="fbenua" value="Asia(tidak bisa diubah)" disabled><br><br>
+		</fieldset>
+	</form>
+</body>
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Belajar CSS</title>
+	<style type="text/css">
+		body {
+			text-align: center;
+			border: 1px solid black;
+			background-color: #DDDDDD;
+			margin: 0;
+			color: white;
+			font-family: arial;
+		}
+		.header {
+			height: 100px;
+			border: 2px solid black;
+			background-color: grey;
+		}
+		.header p{
+			padding-bottom: 15px;
+		}
+		.menu{
+			float: left;
+			height: 100px;
+			width: 200px; 
+			border: 1px solid black;
+			background-color: grey;
+		}
+		.content{
+			border: 1px solid black;
+			height: 500px;
+			margin-left: 200px;
+			margin-right: 200px;
+			background-color: grey;
+		}
+		.sidebar{
+			border: 1px solid black;
+			float: right;
+			width: 200px;
+			height: 300px;
+			background-color: grey;
+		}
+		.box1, .box2 {
+			border: 1px solid black;
+			margin: 20px;
+		}
+		.footer {
+			clear: both;
+			height: 100px;
+			text-align: center;
+			border: 1px solid black;
+			background-color: grey;
+		}
+	</style>
+</head>
+<body>
+	<div class="header">
+		<h3>The Header</h3>
+		<p>height: 100px</p>
+	</div>
+	<div class="menu">
+		<p>Menu</p>
+		<p>height: 100px; widht:200px;</p>
+	</div>
+	<div class="sidebar">
+		<div class="box1">
+			<p>Box 1</p>
+			<p>Ini adalah konten dari box pertama</p>
+		</div>
+		<div class="box2">
+			<p>Box 2</p>
+			<p>Ini adalah konten dari box kedua</p>
+		</div>
+	</div>
+	<div class="content">
+		<p>Content</p>
+		<p>height: 500px; margin-left: 200px margin-right: 200px;</p>
+	</div>
+	<div class="footer">
+		<p>Footer</p>
+		<p>height: 50px</p>
+	</div>
+</body>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Challenge 1</title>
+</head>
+<body>
+	<form action="form.html">
+		<label for="fnama">Nama :</label><br>
+		<input type="text" name="fnama" id="fnama" required><br><br>
+		<label for="benua">Benua :</label><br>
+		<input type="text" name="benua" id="benua" value="Asia(tidak dapat diubah)" readonly><br><br>
+		<input list="makan" name="makanan" id="makanan">
+			<datalist id="makan">
+			    <option value="bakso">
+			    <option value="mieayam">
+			    <option value="burger">
+			    <option value="pizza">
+		 	</datalist>
+		<br>
+		<input type="radio" name="gender"> <label>Laki-laki</label><input type="radio" name="gender"><label>Perempuan</label>
+		<input type="submit" name="submit" value="Kirim">
+	</form>
+</body>
+</html>

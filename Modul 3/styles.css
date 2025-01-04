@@ -1,0 +1,20 @@
+body {
+	font-family: arial;
+}
+th {
+	background-color: green;
+
+}
+caption{
+	font-family: arial;
+	font-size: 20px;
+	color: red;
+
+}
+a {
+	color: black;
+	text-decoration: none;
+}
+.ini{
+	background-color: yellow
+}

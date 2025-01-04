@@ -1,0 +1,14 @@
+.gambar-kiri {
+	width: 200px;
+	float: left;
+}
+.gambar-kanan {
+	float: right;
+}
+/*.teks-kiri {
+	float: right
+}*/
+
+.clear {
+	clear: both;
+}

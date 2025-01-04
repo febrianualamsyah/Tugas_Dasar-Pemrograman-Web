@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Belajar Javascript</title>
+</head>
+<body>
+	<script>
+		document.write("Membuat Javascript Sederhana!");
+		console.log("Hello World")
+
+		let umur = 18;
+		const phi = 3.14;
+		let hewan = "Kucing";
+		let sedangbelajar = true;
+		let benda = null;
+		let sesuatu;
+		let sesuatu2 = undefined;
+
+		document.write(phi);
+
+		if (hewan == "Sapi") {
+			console.log("Moo...")
+		} else if (hewan == "Tikus") {
+			console.log("cit cit...")
+		} else {
+			console.log("Meow meow...")
+		}
+
+		switch (hewan) {
+			case "sapi" :
+				console.log("moo...");
+				break
+			case "tikus":
+				console.log("cit cit..");
+				break
+			default:
+				console.log("meow..");
+		}
+
+		// for (let angka = 0; angka < 10; angka++) {
+		// 	console.log("perulangan ke-" + angka);
+		// }
+
+		// let angka = 0;
+
+		// while (angka < 10) {
+		// 	console.log("perulangan ke-" + angka);
+		// 	angka++
+		// }
+
+		let angka = 12;
+
+		do {
+			console.log("perulangan ke-" + angka);
+			angka++;
+		} while (angka < 10);
+
+		function luasPersegiPanjang(p, l) {
+			const total = p * l;
+
+			return total; //
+		}
+
+		let bentuk = luasPersegiPanjang(10, 5);
+		console.log(bentuk)
+
+		const luassegitiga = function(a,t) {
+			rumus = 1/2 * a * t;
+
+			return rumus;
+		};
+
+		let hitung = luassegitiga(2,10);
+		console.log(hitung);
+	</script>
+</body>
+</html>
